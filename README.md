@@ -20,4 +20,6 @@ Make it more friendly and fun<br>
 Push final code to Github <br><br><br>
 
 Technologies => Java<br><br>
-Topic => classes, methods, variables, datatypes
+
+# Topic <br>
+classes<br> methods <br>variables<br> datatypes
