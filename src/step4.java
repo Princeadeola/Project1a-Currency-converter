@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class step4 {
+public class step4 {
 }
