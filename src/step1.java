@@ -1,4 +1,4 @@
-public class Main {
+public class step1 {
     public static void main(String[] args) {
         double conversionRate = 650; //using dollar first
         double userAmount = 500;
