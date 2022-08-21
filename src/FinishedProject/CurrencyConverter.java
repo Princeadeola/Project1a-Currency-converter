@@ -10,7 +10,20 @@ import java.util.Scanner;
 public class CurrencyConverter {
     private static Scanner input;
 
-    private static void options(int option) throws IOException {
+    public void getUserInput() throws IOException {
+        input = new Scanner(System.in);
+
+        System.out.println("Welcome to an online currency converter console");
+        System.out.println("How would you like to do your currency conversion");
+        System.out.println("1. Online (Automatically)");
+        System.out.println("2. Offline (Manually)");
+        System.out.print("Select an option 1|2|0 (0 to exit): ");
+        int userOption = input.nextInt();
+
+        CurrencyConverter.options(userOption);
+    }
+
+    public static void options(int option) throws IOException {
         if (option == 1){
             System.out.println("This is an online currency converter, ensure your data is on");
             System.out.print("What your amount to convert: ");
