@@ -7,6 +7,7 @@ import okhttp3.Response;
 import java.io.IOException;
 import java.util.Scanner;
 
+
 public class CurrencyConverter {
     private static Scanner input;
 

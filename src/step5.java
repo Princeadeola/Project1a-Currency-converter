@@ -74,6 +74,7 @@ public class step5 {
     }
 }
 
+
 //Building a console application
 //Create my java project
 //Create a variable to store a hard-coded currency rate and input
