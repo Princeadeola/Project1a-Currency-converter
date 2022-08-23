@@ -69,6 +69,7 @@ public class CurrencyConverter {
         System.out.println(response.body().string());  //=> Print all output in json format
     }
 
+    // manual converter
     public static void convert(double userAmount, double fromRate){
 
         double myCurrency = (userAmount * fromRate);
